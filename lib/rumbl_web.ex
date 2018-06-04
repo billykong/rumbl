@@ -23,6 +23,7 @@ defmodule RumblWeb do
       import Plug.Conn
       import RumblWeb.Router.Helpers
       import RumblWeb.Gettext
+      alias RumblWeb.Router.Helpers, as: Routes
     end
   end
 
